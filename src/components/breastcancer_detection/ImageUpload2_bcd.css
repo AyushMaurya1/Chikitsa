@@ -1,0 +1,102 @@
+/* Styles for the entire app */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 20px;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #aec9af;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+/* Main content styles */
+main {
+  margin-top: 20px;
+}
+
+/* Container styles */
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input[type="file"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Image preview styles */
+#imagePreview {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Result and error styles */
+.container h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.container p {
+  margin: 10px 0;
+  white-space: pre-wrap; /* Preserve whitespace for result text */
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 20px;
+  color: #777;
+  font-size: 0.9em;
+}
+

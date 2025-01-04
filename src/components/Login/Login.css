@@ -1,0 +1,135 @@
+/* login.css */
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #343a40;
+} */
+
+.loginContainer {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+p {
+  color: #e63946;
+  font-size: 14px;
+  margin: 5px 0 15px 0;
+  text-align: left;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+  transform: scale(1.03);
+}
+
+/* Add subtle animations */
+.loginContainer {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Make the design responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .loginContainer {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,232 @@
+
+/* General Body Styling */
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Full-Screen Container Styling */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 2rem; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url(upbg.png);
+  /* background-color: rgb(187, 212, 245); */
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Section Styling */
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* First Section (Title and Subtitle) */
+.title-section {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading Styling */
+.title-section h1 {
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* Subtitle Styling */
+.title-section .subtitle {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+/* Second Section (File Input and Preview) */
+.upload-section {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column; /* Stack containers vertically */
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Adjust the width as needed */
+}
+
+/* File Input Container Styling */
+.file-container {
+  width: 300px;
+  height: 30px;
+  border: 1.5px solid #000;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.file-container input[type="file"] {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Image Preview Container Styling */
+.image-preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  border: 1.5px solid #000;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+
+.image-preview-title {
+  font-size: 1rem;
+  color: #000000;
+  /* margin-bottom: 0.5rem; */
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Button Styling */
+.upload-container button {
+  margin-bottom: 4rem;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  /* transition: background-color 0.3s, transform 0.2s; */
+  outline: none;
+}
+
+.upload-container button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.upload-container button:disabled {
+  background-color: #000000;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  background-color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+img#imagePreview {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+} */
